@@ -1,0 +1,28 @@
+{
+  "rectangles": [
+    {
+      "id": "1",
+      "color": "rgb(73, 119, 204)",
+      "width": "120px",
+      "height": "100px",
+      "x": "0px",
+      "y": "0px"
+    },
+    {
+      "id": "2",
+      "color": "rgb(162, 144, 244)",
+      "width": "200px",
+      "height": "80px",
+      "x": "140px",
+      "y": "90px"
+    },
+    {
+      "id": "3",
+      "color": "rgb(186, 236, 244)",
+      "width": "80px",
+      "height": "125px",
+      "x": "20px",
+      "y": "170px"
+    }
+  ]
+}

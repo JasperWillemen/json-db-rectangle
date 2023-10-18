@@ -1,0 +1,22 @@
+{
+  "name": "rectangle_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "npm run dev",
+    "magic": "sass ./css/style.scss ./css/style.css --style=compressed --watch",
+    "dev": "vite --open --host",
+    "build": "vite build",
+    "preview": "vite preview --open --host",
+    "predeploy": "npm run build",
+    "deploy": "surge ./dist gewoon-een-testje.surge.sh",
+    "db": "json-server --watch ./db.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "randomcolor": "^0.6.2"
+  }
+}
